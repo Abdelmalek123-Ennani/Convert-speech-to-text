@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak with computer</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <div class="alert">Click the button below to start Recording</div>
+    <button id="talk">Start Recording</button>
+     <div class="buttons">
+        <!-- <div>
+            <label for="speed">speed</label>
+            <input type="number" name="speed" id="speed" min=".5" max="3" step=".5" value="1">
+         </div> -->
+        <button id="play-button">Play</button>
+        <button id="pause-button">Pause</button>
+        <button id="stop-button">Stop/clear</button>
+        <button id="select-button">
+            <span class="tooltiptext" id="myTooltip">click to Select</span>
+            Select
+        </button>
+        <button id="copy-button">
+            <span class="tooltiptext" id="myTooltip">click to copy</span>
+            copy
+        </button>
+        <button id="cut-button">
+            <span class="tooltiptext" id="myTooltip">click to cut</span>
+            cut
+        </button>
+     </div>
+    <textarea id="text" placeholder="write or record something"></textarea>
+
+
+</body>
+</html>
