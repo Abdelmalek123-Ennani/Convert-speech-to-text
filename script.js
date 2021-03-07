@@ -82,7 +82,7 @@ function playtext(text) {
         return speechSynthesis.resume();
     }
 
-    // If i speak currently and I click the play button twice not restart  from the beginning
+   
     if ( utterance.speaking ) return;
    
     utterance.text = text;
