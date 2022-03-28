@@ -167,7 +167,8 @@ function copyFunction() {
 
 // selecth button
   function selectFunction() {
-
+  
+    // if the field is empty
     if ( textInput.value.trim() == "" ) {
         alert('Please write something first');
         return;
