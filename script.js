@@ -1,3 +1,4 @@
+// javascript file
 
 const playButton = document.getElementById('play-button');
 const pauseButton = document.getElementById('pause-button');
