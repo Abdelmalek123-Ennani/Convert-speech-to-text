@@ -1,4 +1,4 @@
-// js file
+// project to convert text to audio and vice-versa
 
 const playButton = document.getElementById('play-button');
 const pauseButton = document.getElementById('pause-button');
